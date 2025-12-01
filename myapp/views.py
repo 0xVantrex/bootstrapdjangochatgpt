@@ -17,5 +17,5 @@ def donation(request):
     return render(request,'donation.html')
 def testimonial(request):
     return render(request,'testimonial.html')
-def features(request):
-    return render(request,'features.html')
+def feature(request):
+    return render(request,'feature.html')
